@@ -1,0 +1,24 @@
+
+CREATE TABLE `staff_man` (
+  `id` varchar(40) NOT NULL,
+  `age` int(3) DEFAULT NULL,
+  `name` varchar(10) DEFAULT NULL,
+  `gender` char(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+ 
+CREATE TABLE `staff_woman` (
+  `id` varchar(40) NOT NULL,
+  `age` int(3) DEFAULT NULL,
+  `name` varchar(10) DEFAULT NULL,
+  `gender` char(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+ 
+CREATE TABLE `staff` (
+  `id` varchar(40) NOT NULL,
+  `age` int(3) DEFAULT NULL,
+  `name` varchar(10) DEFAULT NULL,
+  `gender` char(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
